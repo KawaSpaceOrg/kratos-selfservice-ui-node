@@ -4,6 +4,7 @@
     --base-white: #FFFFFF;
     --base-light: #F0F0F1;
     --base-text: #99999E;
+    --base-text: #99999E;
     --base-main: #5A5B6A;
     --base-dark: #19191D;
     --base-black: #000000;
@@ -25,8 +26,8 @@ html, body {
 body {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
-    color: var(--base-light);
-    background: var(--base-dark);
+    color: var(--base-dark);
+    background-image: linear-gradient(180deg,rgba(0,204,204,0.1) 10%,var(--base-white));
 }
 
 .container {

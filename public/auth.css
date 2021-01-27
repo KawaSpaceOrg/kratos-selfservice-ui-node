@@ -18,12 +18,12 @@
 }
 
 .auth a:hover {
-    color: var(--base-white);
+    color: var(--base-black);
 }
 
 .auth .divider {
     width: 100%;
-    border-color: var(--base-main);
+    border-color: var(--kawa-teal);
     margin: 2rem 0;
 }
 
