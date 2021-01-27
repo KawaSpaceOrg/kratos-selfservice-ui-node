@@ -13,6 +13,8 @@
     --primary-dark: #2E0473;
     --red-strong: #F44336;
     --green-strong: #43A047;
+    --kawa-teal: #00CCCC;
+    --kawa-teal-half: #04e0e0;
 }
 
 html, body {
@@ -33,6 +35,11 @@ body {
     align-items: stretch;
     width: 600px;
     margin: 0 auto;
+}
+
+.container .logo-kawa {
+    width: 80%;
+    margin: 0 auto 20px;
 }
 
 .auth .container {

@@ -37,18 +37,17 @@ form label input:not(:placeholder-shown) ~ span {
 
 form button {
     border-radius: 0.225em;
-    background-color: var(--primary-main);
+    background-color: var(--kawa-teal);
     color: var(--base-white);
     border-width: 0;
     padding: 0.875em 0.5em;
     transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
-    margin-top: 3rem;
+    margin-top: 2rem;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: var(--primary-half);
-    color: var(--primary-dark);
+    background-color: var(--kawa-teal-half);
 }
 
 form label input {
