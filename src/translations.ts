@@ -6,7 +6,7 @@ const translations = {
     position: 2,
   },
   'traits.email': {
-    title: 'E-Mail',
+    title: 'E-mail',
     position: 1,
   },
   'traits.name.first': {
@@ -22,7 +22,7 @@ const translations = {
     position: 4,
   },
   identifier: {
-    title: 'E-Mail',
+    title: 'E-mail',
     position: 0,
   },
   to_verify: {

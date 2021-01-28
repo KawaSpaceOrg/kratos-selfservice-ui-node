@@ -13,6 +13,8 @@
     --primary-dark: #2E0473;
     --red-strong: #F44336;
     --green-strong: #43A047;
+    --kawa-teal: #00CCCC;
+    --kawa-teal-half: #04e0e0;
 }
 
 html, body {
@@ -23,8 +25,8 @@ html, body {
 body {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 16px;
-    color: var(--base-light);
-    background: var(--base-dark);
+    color: var(--base-dark);
+    background-image: linear-gradient(180deg,rgba(0,204,204,0.1) 10%,var(--base-white));
 }
 
 .container {
@@ -33,6 +35,11 @@ body {
     align-items: stretch;
     width: 600px;
     margin: 0 auto;
+}
+
+.container .logo-kawa {
+    width: 80%;
+    margin: 0 auto 20px;
 }
 
 .auth .container {
